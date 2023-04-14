@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Gran Fiesta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">La Gran Fiesta</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">La Gran Fiesta</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="entradas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Comprar entradas</button>
+                    </li>
+                    <li>
+                        <button id="bebidas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Bebidas</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-presentacion">
+                <h2 class="titulo-principal">Bienvenido a la gran fiesta</h2>
+            <p>¡Bienvenidos a la Gran Fiesta, la fiesta más emocionante y espectacular del año! Si estás buscando una noche llena de diversión, música, baile y bebidas, ¡no te pierdas esta experiencia única! Esta fiesta es exclusiva para mayores de 18 años, así que prepárate para unirte a una multitud de gente vibrante y llena de energía.
+        
+                La Gran Fiesta es el lugar perfecto para pasar una noche inolvidable con amigos y conocidos. ¿Quieres probar una bebida exótica o tu cóctel favorito? ¡No hay problema! Tenemos una amplia selección de bebidas alcohólicas que te dejarán con ganas de más. Además, hay música de DJs profesionales y entretenimiento en vivo para mantenerte bailando toda la noche.
+                
+                ¿Te gusta vestirte elegante? ¡Perfecto! Esta fiesta es el lugar ideal para lucir tu mejor atuendo y disfrutar de un ambiente sofisticado y glamoroso. Podrás encontrar todo tipo de personas, cada una con su propio estilo y personalidad, lo que hace de esta fiesta una experiencia única e inolvidable.
+                
+                La Gran Fiesta es más que una simple fiesta, es una experiencia emocionante y llena de sorpresas. Ven con tus amigos y conoce a nuevas personas mientras disfrutas de una noche llena de diversión y alegría. ¡No te arrepentirás de haber asistido a la Gran Fiesta!</p>
+                <label>Ingresa tu edad:</label>
+            <input type="text" id="edad" name="edad">
+            <button class="producto-agregar" id="verificar">Verificar</button>
+            <p id="mensaje"></p>    
+            </div>
+            <div id="contenedor-productos" class="contenedor-productos">
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+   
+</body>
+</html>

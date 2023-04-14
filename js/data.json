@@ -1,0 +1,54 @@
+[
+  {
+      "id": "entrada-01",
+      "titulo":"Entrada comun",
+      "imagen": "./img/ticketcomun.png",
+      "categoria": {
+          "nombre":"Entradas",
+          "id": "entradas"
+      },
+      "precio": 1000
+  },
+  {
+      "id": "entrada-02",
+      "titulo":"Entrada Vip",
+      "imagen": "./img/ticketgold.png",
+      "categoria": {
+          "nombre":"Entradas",
+          "id": "entradas"
+      },
+      "precio": 1000
+  },
+  {
+      "id": "bebida-01",
+      "titulo":"Coca Cola 1l",
+      "imagen": "./img/cocapng.png",
+      "categoria": {
+          "nombre":"Bebidas",
+          "id": "bebidas"
+      },
+      "precio": 1000
+  },
+  {
+      "id": "bebida-02",
+      "titulo":"Fernet",
+      "imagen": "./img/Fernetpng.png",
+      "categoria": {
+          "nombre":"Bebidas",
+          "id": "bebidas"
+      },
+      "precio": 1000
+  },
+  {
+      "id": "bebida-03",
+      "titulo":"Vino",
+      "imagen": "./img/vinopng.png",
+      "categoria": {
+          "nombre":"Bebidas",
+          "id": "bebidas"
+      },
+      "precio": 1000
+  }
+
+
+]
